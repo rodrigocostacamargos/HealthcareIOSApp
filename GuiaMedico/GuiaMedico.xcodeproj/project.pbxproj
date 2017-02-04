@@ -1,0 +1,659 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA144CDB145B27170090114F /* 33-cabinet.png in Resources */ = {isa = PBXBuildFile; fileRef = BA144CDA145B27170090114F /* 33-cabinet.png */; };
+		BA3867FE1462E2C2006DE289 /* Google-Notebook-256.png in Resources */ = {isa = PBXBuildFile; fileRef = BA3867FD1462E2C2006DE289 /* Google-Notebook-256.png */; };
+		BA8E29FF1474438A0011E7EA /* plano_saude.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA8E29FE1474438A0011E7EA /* plano_saude.jpg */; };
+		BAB99A90146B2EB6002A1804 /* MainWindow-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAB99A8E146B2EB6002A1804 /* MainWindow-iPad.xib */; };
+		BAC9F2881451B8B100012336 /* PrestadorDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC9F2861451B8B100012336 /* PrestadorDetailViewController.m */; };
+		BAC9F2891451B8B100012336 /* PrestadorDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAC9F2871451B8B100012336 /* PrestadorDetailViewController.xib */; };
+		BAC9F2B41452196200012336 /* CidadeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC9F2B21452196200012336 /* CidadeViewController.m */; };
+		BAC9F2B51452196200012336 /* CidadeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAC9F2B31452196200012336 /* CidadeViewController.xib */; };
+		BAC9F2B914521C9B00012336 /* BairroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC9F2B714521C9A00012336 /* BairroViewController.m */; };
+		BAC9F2BA14521C9B00012336 /* BairroViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAC9F2B814521C9B00012336 /* BairroViewController.xib */; };
+		BACF79FF146834D500046075 /* BookmarksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BACF79FD146834D500046075 /* BookmarksViewController.m */; };
+		BACF7A00146834D500046075 /* BookmarksViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BACF79FE146834D500046075 /* BookmarksViewController.xib */; };
+		BACF7A02146836E400046075 /* 96-book.png in Resources */ = {isa = PBXBuildFile; fileRef = BACF7A01146836E400046075 /* 96-book.png */; };
+		BACF7A101468589C00046075 /* Prestador.m in Sources */ = {isa = PBXBuildFile; fileRef = BACF7A0F1468589C00046075 /* Prestador.m */; };
+		BACF7A1214688A0500046075 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BACF7A1114688A0400046075 /* QuartzCore.framework */; };
+		BAD0A10314504A5D00DAB291 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAD0A10214504A5D00DAB291 /* UIKit.framework */; };
+		BAD0A10514504A5D00DAB291 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAD0A10414504A5D00DAB291 /* Foundation.framework */; };
+		BAD0A10714504A5D00DAB291 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAD0A10614504A5D00DAB291 /* CoreGraphics.framework */; };
+		BAD0A10D14504A5D00DAB291 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BAD0A10B14504A5D00DAB291 /* InfoPlist.strings */; };
+		BAD0A11014504A5D00DAB291 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BAD0A10F14504A5D00DAB291 /* main.m */; };
+		BAD0A11314504A5D00DAB291 /* GuiaMedicoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BAD0A11214504A5D00DAB291 /* GuiaMedicoAppDelegate.m */; };
+		BAD0A11614504A5D00DAB291 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAD0A11414504A5D00DAB291 /* MainWindow.xib */; };
+		BAD0A12514504D2E00DAB291 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAD0A12414504D2E00DAB291 /* CoreData.framework */; };
+		BAD0A12814504D5900DAB291 /* DataAccessObject.m in Sources */ = {isa = PBXBuildFile; fileRef = BAD0A12714504D5900DAB291 /* DataAccessObject.m */; };
+		BAD0A16714506AF100DAB291 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAD0A16514506AF100DAB291 /* MainViewController.m */; };
+		BAD0A16814506AF100DAB291 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAD0A16614506AF100DAB291 /* MainViewController.xib */; };
+		BAD0A16C14506C8200DAB291 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAD0A16A14506C8200DAB291 /* MapViewController.m */; };
+		BAD0A16D14506C8200DAB291 /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAD0A16B14506C8200DAB291 /* MapViewController.xib */; };
+		BAD0A16F14506CCC00DAB291 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAD0A16E14506CCC00DAB291 /* MapKit.framework */; };
+		BAD0A1721450716200DAB291 /* globe.png in Resources */ = {isa = PBXBuildFile; fileRef = BAD0A1711450716200DAB291 /* globe.png */; };
+		BAD0A18A145099BF00DAB291 /* DataBaseModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BAD0A188145099BF00DAB291 /* DataBaseModel.xcdatamodeld */; };
+		BAD0A19C1450A66900DAB291 /* Bairro.m in Sources */ = {isa = PBXBuildFile; fileRef = BAD0A19B1450A66800DAB291 /* Bairro.m */; };
+		BAD0A19F1450A66900DAB291 /* Cidade.m in Sources */ = {isa = PBXBuildFile; fileRef = BAD0A19E1450A66900DAB291 /* Cidade.m */; };
+		BAD0A1A21450A66A00DAB291 /* Endereco.m in Sources */ = {isa = PBXBuildFile; fileRef = BAD0A1A11450A66A00DAB291 /* Endereco.m */; };
+		BAD0A1B41450AA6300DAB291 /* EspecialidadeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAD0A1B21450AA6300DAB291 /* EspecialidadeViewController.m */; };
+		BAD0A1B51450AA6300DAB291 /* EspecialidadeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAD0A1B31450AA6300DAB291 /* EspecialidadeViewController.xib */; };
+		BAD0A1B91450B17200DAB291 /* PrestadorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAD0A1B71450B17100DAB291 /* PrestadorViewController.m */; };
+		BAD0A1BA1450B17200DAB291 /* PrestadorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAD0A1B81450B17100DAB291 /* PrestadorViewController.xib */; };
+		BAD18EA8146725A00014E3F2 /* fundo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAD18EA7146725A00014E3F2 /* fundo.jpg */; };
+		BADFC203145DC96900452E84 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = BADFC1F8145DC96900452E84 /* NSObject+SBJSON.m */; };
+		BADFC204145DC96900452E84 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = BADFC1FA145DC96900452E84 /* NSString+SBJSON.m */; };
+		BADFC205145DC96900452E84 /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = BADFC1FC145DC96900452E84 /* SBJSON.m */; };
+		BADFC206145DC96900452E84 /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = BADFC1FE145DC96900452E84 /* SBJsonBase.m */; };
+		BADFC207145DC96900452E84 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = BADFC200145DC96900452E84 /* SBJsonParser.m */; };
+		BADFC208145DC96900452E84 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = BADFC202145DC96900452E84 /* SBJsonWriter.m */; };
+		BAE473781458CEBD00D58652 /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE473761458CEBD00D58652 /* ImageViewController.m */; };
+		BAE473791458CEBD00D58652 /* ImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAE473771458CEBD00D58652 /* ImageViewController.xib */; };
+		BAE4737C1458DB4B00D58652 /* unimed.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAE4737B1458DB4B00D58652 /* unimed.jpg */; };
+		BAE4737E1458DCB800D58652 /* predio.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAE4737D1458DCB800D58652 /* predio.jpg */; };
+		BAE473801458DE4800D58652 /* predioEinstein.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAE4737F1458DE4800D58652 /* predioEinstein.jpg */; };
+		BAE473821458DE8B00D58652 /* logoEinstein.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAE473811458DE8B00D58652 /* logoEinstein.jpg */; };
+		BAE473841458DFE400D58652 /* predioEinstein2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAE473831458DFE400D58652 /* predioEinstein2.jpg */; };
+		BAE473861458E43C00D58652 /* logoUnimed.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAE473851458E43C00D58652 /* logoUnimed.jpg */; };
+		BAE93064145719AE00752767 /* CIDADE.txt in Resources */ = {isa = PBXBuildFile; fileRef = BAE93063145719AE00752767 /* CIDADE.txt */; };
+		BAE9306614572AB900752767 /* BAIRRO.txt in Resources */ = {isa = PBXBuildFile; fileRef = BAE9306514572AB900752767 /* BAIRRO.txt */; };
+		BAE930691457353200752767 /* Especialidade.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE930681457353200752767 /* Especialidade.m */; };
+		BAE9306B1457371700752767 /* ESPECIALIDADE.txt in Resources */ = {isa = PBXBuildFile; fileRef = BAE9306A1457371700752767 /* ESPECIALIDADE.txt */; };
+		BAE9306D14573FCC00752767 /* PRESTADOR.txt in Resources */ = {isa = PBXBuildFile; fileRef = BAE9306C14573FCC00752767 /* PRESTADOR.txt */; };
+		BAE961D414695DD9002E8980 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAE961D214695DD9002E8980 /* AddressBook.framework */; };
+		BAE961D514695DD9002E8980 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAE961D314695DD9002E8980 /* AddressBookUI.framework */; };
+		BAF073C8145992AD0043605E /* omintlogo.gif in Resources */ = {isa = PBXBuildFile; fileRef = BAF073C7145992AD0043605E /* omintlogo.gif */; };
+		BAF073CD145994740043605E /* predioOmint.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAF073CC145994740043605E /* predioOmint.jpg */; };
+		BAF073D1145997450043605E /* omint3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAF073D0145997450043605E /* omint3.jpg */; };
+		BAF073D5145998D30043605E /* omint5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAF073D4145998D30043605E /* omint5.jpg */; };
+		BAF073D7145999790043605E /* omintmedico.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAF073D6145999790043605E /* omintmedico.jpg */; };
+		BAF073E7145AF8370043605E /* carteira_omint_estilo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAF073E6145AF8370043605E /* carteira_omint_estilo.jpg */; };
+		BAF073F1145AFBD70043605E /* carteira_access.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAF073F0145AFBD70043605E /* carteira_access.jpg */; };
+		BAF073F5145AFDD20043605E /* LocationImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF073F3145AFDD20043605E /* LocationImageView.m */; };
+		BAF073F6145AFDD20043605E /* LocationImageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAF073F4145AFDD20043605E /* LocationImageView.xib */; };
+		BAF07400145B11880043605E /* tela-clinic-medico-02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAF073FF145B11870043605E /* tela-clinic-medico-02.jpg */; };
+		BAF07402145B17070043605E /* cardiologia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAF07401145B17070043605E /* cardiologia.jpg */; };
+		BAF07404145B18170043605E /* cardiologia2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAF07403145B18160043605E /* cardiologia2.jpg */; };
+		BAF07406145B19070043605E /* cidade.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAF07405145B19070043605E /* cidade.jpg */; };
+		BAF07408145B19890043605E /* cidade2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAF07407145B19880043605E /* cidade2.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BA144CDA145B27170090114F /* 33-cabinet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "33-cabinet.png"; sourceTree = "<group>"; };
+		BA3867FD1462E2C2006DE289 /* Google-Notebook-256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Google-Notebook-256.png"; path = "images/Google-Notebook-256.png"; sourceTree = "<group>"; };
+		BA8E29FE1474438A0011E7EA /* plano_saude.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = plano_saude.jpg; path = images/plano_saude.jpg; sourceTree = "<group>"; };
+		BAB99A8F146B2EB6002A1804 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "iPad/en.lproj/MainWindow-iPad.xib"; sourceTree = "<group>"; };
+		BAC9F2851451B8B100012336 /* PrestadorDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrestadorDetailViewController.h; sourceTree = "<group>"; };
+		BAC9F2861451B8B100012336 /* PrestadorDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrestadorDetailViewController.m; sourceTree = "<group>"; };
+		BAC9F2871451B8B100012336 /* PrestadorDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PrestadorDetailViewController.xib; sourceTree = "<group>"; };
+		BAC9F2B11452196100012336 /* CidadeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CidadeViewController.h; sourceTree = "<group>"; };
+		BAC9F2B21452196200012336 /* CidadeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CidadeViewController.m; sourceTree = "<group>"; };
+		BAC9F2B31452196200012336 /* CidadeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CidadeViewController.xib; sourceTree = "<group>"; };
+		BAC9F2B614521C9A00012336 /* BairroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BairroViewController.h; sourceTree = "<group>"; };
+		BAC9F2B714521C9A00012336 /* BairroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BairroViewController.m; sourceTree = "<group>"; };
+		BAC9F2B814521C9B00012336 /* BairroViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BairroViewController.xib; sourceTree = "<group>"; };
+		BACF79FC146834D500046075 /* BookmarksViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookmarksViewController.h; sourceTree = "<group>"; };
+		BACF79FD146834D500046075 /* BookmarksViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookmarksViewController.m; sourceTree = "<group>"; };
+		BACF79FE146834D500046075 /* BookmarksViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BookmarksViewController.xib; sourceTree = "<group>"; };
+		BACF7A01146836E400046075 /* 96-book.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "96-book.png"; sourceTree = "<group>"; };
+		BACF7A0E1468589C00046075 /* Prestador.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Prestador.h; sourceTree = "<group>"; };
+		BACF7A0F1468589C00046075 /* Prestador.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Prestador.m; sourceTree = "<group>"; };
+		BACF7A1114688A0400046075 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		BAD0A0FE14504A5D00DAB291 /* GuiaMedico.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuiaMedico.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAD0A10214504A5D00DAB291 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BAD0A10414504A5D00DAB291 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BAD0A10614504A5D00DAB291 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BAD0A10A14504A5D00DAB291 /* GuiaMedico-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GuiaMedico-Info.plist"; sourceTree = "<group>"; };
+		BAD0A10C14504A5D00DAB291 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BAD0A10E14504A5D00DAB291 /* GuiaMedico-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GuiaMedico-Prefix.pch"; sourceTree = "<group>"; };
+		BAD0A10F14504A5D00DAB291 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BAD0A11114504A5D00DAB291 /* GuiaMedicoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GuiaMedicoAppDelegate.h; sourceTree = "<group>"; };
+		BAD0A11214504A5D00DAB291 /* GuiaMedicoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuiaMedicoAppDelegate.m; sourceTree = "<group>"; };
+		BAD0A11514504A5D00DAB291 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		BAD0A12414504D2E00DAB291 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		BAD0A12614504D5900DAB291 /* DataAccessObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataAccessObject.h; sourceTree = "<group>"; };
+		BAD0A12714504D5900DAB291 /* DataAccessObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataAccessObject.m; sourceTree = "<group>"; };
+		BAD0A16414506AF100DAB291 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		BAD0A16514506AF100DAB291 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		BAD0A16614506AF100DAB291 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		BAD0A16914506C8200DAB291 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		BAD0A16A14506C8200DAB291 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		BAD0A16B14506C8200DAB291 /* MapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
+		BAD0A16E14506CCC00DAB291 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		BAD0A1711450716200DAB291 /* globe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = globe.png; sourceTree = "<group>"; };
+		BAD0A189145099BF00DAB291 /* DataBaseModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataBaseModel.xcdatamodel; sourceTree = "<group>"; };
+		BAD0A19A1450A66800DAB291 /* Bairro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bairro.h; sourceTree = "<group>"; };
+		BAD0A19B1450A66800DAB291 /* Bairro.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bairro.m; sourceTree = "<group>"; };
+		BAD0A19D1450A66900DAB291 /* Cidade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cidade.h; sourceTree = "<group>"; };
+		BAD0A19E1450A66900DAB291 /* Cidade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cidade.m; sourceTree = "<group>"; };
+		BAD0A1A01450A66900DAB291 /* Endereco.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Endereco.h; sourceTree = "<group>"; };
+		BAD0A1A11450A66A00DAB291 /* Endereco.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Endereco.m; sourceTree = "<group>"; };
+		BAD0A1B11450AA6300DAB291 /* EspecialidadeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EspecialidadeViewController.h; sourceTree = "<group>"; };
+		BAD0A1B21450AA6300DAB291 /* EspecialidadeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EspecialidadeViewController.m; sourceTree = "<group>"; };
+		BAD0A1B31450AA6300DAB291 /* EspecialidadeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EspecialidadeViewController.xib; sourceTree = "<group>"; };
+		BAD0A1B61450B17100DAB291 /* PrestadorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrestadorViewController.h; sourceTree = "<group>"; };
+		BAD0A1B71450B17100DAB291 /* PrestadorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrestadorViewController.m; sourceTree = "<group>"; };
+		BAD0A1B81450B17100DAB291 /* PrestadorViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PrestadorViewController.xib; sourceTree = "<group>"; };
+		BAD18EA7146725A00014E3F2 /* fundo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = fundo.jpg; path = images/fundo.jpg; sourceTree = "<group>"; };
+		BADFC1F6145DC96900452E84 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSON.h; path = JSON/JSON.h; sourceTree = "<group>"; };
+		BADFC1F7145DC96900452E84 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+SBJSON.h"; path = "JSON/NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		BADFC1F8145DC96900452E84 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+SBJSON.m"; path = "JSON/NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		BADFC1F9145DC96900452E84 /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+SBJSON.h"; path = "JSON/NSString+SBJSON.h"; sourceTree = "<group>"; };
+		BADFC1FA145DC96900452E84 /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+SBJSON.m"; path = "JSON/NSString+SBJSON.m"; sourceTree = "<group>"; };
+		BADFC1FB145DC96900452E84 /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJSON.h; path = JSON/SBJSON.h; sourceTree = "<group>"; };
+		BADFC1FC145DC96900452E84 /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJSON.m; path = JSON/SBJSON.m; sourceTree = "<group>"; };
+		BADFC1FD145DC96900452E84 /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonBase.h; path = JSON/SBJsonBase.h; sourceTree = "<group>"; };
+		BADFC1FE145DC96900452E84 /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonBase.m; path = JSON/SBJsonBase.m; sourceTree = "<group>"; };
+		BADFC1FF145DC96900452E84 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonParser.h; path = JSON/SBJsonParser.h; sourceTree = "<group>"; };
+		BADFC200145DC96900452E84 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonParser.m; path = JSON/SBJsonParser.m; sourceTree = "<group>"; };
+		BADFC201145DC96900452E84 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonWriter.h; path = JSON/SBJsonWriter.h; sourceTree = "<group>"; };
+		BADFC202145DC96900452E84 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonWriter.m; path = JSON/SBJsonWriter.m; sourceTree = "<group>"; };
+		BAE473751458CEBD00D58652 /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
+		BAE473761458CEBD00D58652 /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
+		BAE473771458CEBD00D58652 /* ImageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageViewController.xib; sourceTree = "<group>"; };
+		BAE4737B1458DB4B00D58652 /* unimed.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = unimed.jpg; path = images/unimed.jpg; sourceTree = "<group>"; };
+		BAE4737D1458DCB800D58652 /* predio.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = predio.jpg; path = images/predio.jpg; sourceTree = "<group>"; };
+		BAE4737F1458DE4800D58652 /* predioEinstein.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = predioEinstein.jpg; path = images/predioEinstein.jpg; sourceTree = "<group>"; };
+		BAE473811458DE8B00D58652 /* logoEinstein.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = logoEinstein.jpg; path = images/logoEinstein.jpg; sourceTree = "<group>"; };
+		BAE473831458DFE400D58652 /* predioEinstein2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = predioEinstein2.jpg; path = images/predioEinstein2.jpg; sourceTree = "<group>"; };
+		BAE473851458E43C00D58652 /* logoUnimed.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = logoUnimed.jpg; path = images/logoUnimed.jpg; sourceTree = "<group>"; };
+		BAE93063145719AE00752767 /* CIDADE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CIDADE.txt; sourceTree = "<group>"; };
+		BAE9306514572AB900752767 /* BAIRRO.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = BAIRRO.txt; sourceTree = "<group>"; };
+		BAE930671457353200752767 /* Especialidade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Especialidade.h; sourceTree = "<group>"; };
+		BAE930681457353200752767 /* Especialidade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Especialidade.m; sourceTree = "<group>"; };
+		BAE9306A1457371700752767 /* ESPECIALIDADE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ESPECIALIDADE.txt; sourceTree = "<group>"; };
+		BAE9306C14573FCC00752767 /* PRESTADOR.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PRESTADOR.txt; sourceTree = "<group>"; };
+		BAE961D214695DD9002E8980 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		BAE961D314695DD9002E8980 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		BAF073C7145992AD0043605E /* omintlogo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = omintlogo.gif; path = images/omintlogo.gif; sourceTree = "<group>"; };
+		BAF073CC145994740043605E /* predioOmint.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = predioOmint.jpg; path = images/predioOmint.jpg; sourceTree = "<group>"; };
+		BAF073D0145997450043605E /* omint3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = omint3.jpg; path = images/omint3.jpg; sourceTree = "<group>"; };
+		BAF073D4145998D30043605E /* omint5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = omint5.jpg; path = images/omint5.jpg; sourceTree = "<group>"; };
+		BAF073D6145999790043605E /* omintmedico.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = omintmedico.jpg; path = images/omintmedico.jpg; sourceTree = "<group>"; };
+		BAF073E6145AF8370043605E /* carteira_omint_estilo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = carteira_omint_estilo.jpg; path = images/carteira_omint_estilo.jpg; sourceTree = "<group>"; };
+		BAF073F0145AFBD70043605E /* carteira_access.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = carteira_access.jpg; path = images/carteira_access.jpg; sourceTree = "<group>"; };
+		BAF073F2145AFDD20043605E /* LocationImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationImageView.h; sourceTree = "<group>"; };
+		BAF073F3145AFDD20043605E /* LocationImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationImageView.m; sourceTree = "<group>"; };
+		BAF073F4145AFDD20043605E /* LocationImageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LocationImageView.xib; sourceTree = "<group>"; };
+		BAF073FF145B11870043605E /* tela-clinic-medico-02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "tela-clinic-medico-02.jpg"; path = "images/tela-clinic-medico-02.jpg"; sourceTree = "<group>"; };
+		BAF07401145B17070043605E /* cardiologia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cardiologia.jpg; path = images/cardiologia.jpg; sourceTree = "<group>"; };
+		BAF07403145B18160043605E /* cardiologia2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cardiologia2.jpg; path = images/cardiologia2.jpg; sourceTree = "<group>"; };
+		BAF07405145B19070043605E /* cidade.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cidade.jpg; path = images/cidade.jpg; sourceTree = "<group>"; };
+		BAF07407145B19880043605E /* cidade2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cidade2.jpg; path = images/cidade2.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BAD0A0FB14504A5D00DAB291 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAE961D414695DD9002E8980 /* AddressBook.framework in Frameworks */,
+				BAE961D514695DD9002E8980 /* AddressBookUI.framework in Frameworks */,
+				BACF7A1214688A0500046075 /* QuartzCore.framework in Frameworks */,
+				BAD0A16F14506CCC00DAB291 /* MapKit.framework in Frameworks */,
+				BAD0A12514504D2E00DAB291 /* CoreData.framework in Frameworks */,
+				BAD0A10314504A5D00DAB291 /* UIKit.framework in Frameworks */,
+				BAD0A10514504A5D00DAB291 /* Foundation.framework in Frameworks */,
+				BAD0A10714504A5D00DAB291 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BAB99A8D146B2EB5002A1804 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				BAB99A8E146B2EB6002A1804 /* MainWindow-iPad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+		BAD0A0F314504A5D00DAB291 = {
+			isa = PBXGroup;
+			children = (
+				BAD0A10814504A5D00DAB291 /* GuiaMedico */,
+				BAD0A10114504A5D00DAB291 /* Frameworks */,
+				BAD0A0FF14504A5D00DAB291 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BAD0A0FF14504A5D00DAB291 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BAD0A0FE14504A5D00DAB291 /* GuiaMedico.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BAD0A10114504A5D00DAB291 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BAE961D214695DD9002E8980 /* AddressBook.framework */,
+				BAE961D314695DD9002E8980 /* AddressBookUI.framework */,
+				BACF7A1114688A0400046075 /* QuartzCore.framework */,
+				BAD0A16E14506CCC00DAB291 /* MapKit.framework */,
+				BAD0A12414504D2E00DAB291 /* CoreData.framework */,
+				BAD0A10214504A5D00DAB291 /* UIKit.framework */,
+				BAD0A10414504A5D00DAB291 /* Foundation.framework */,
+				BAD0A10614504A5D00DAB291 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BAD0A10814504A5D00DAB291 /* GuiaMedico */ = {
+			isa = PBXGroup;
+			children = (
+				BAB99A8D146B2EB5002A1804 /* iPad */,
+				BADFC1EF145DC8D300452E84 /* JSON */,
+				BAD0A16314506A9200DAB291 /* Controller */,
+				BAD0A16214506A6400DAB291 /* Model */,
+				BAD0A15714504FC800DAB291 /* DAL */,
+				BAD0A11114504A5D00DAB291 /* GuiaMedicoAppDelegate.h */,
+				BAD0A11214504A5D00DAB291 /* GuiaMedicoAppDelegate.m */,
+				BAD0A11414504A5D00DAB291 /* MainWindow.xib */,
+				BAD0A10914504A5D00DAB291 /* Supporting Files */,
+			);
+			path = GuiaMedico;
+			sourceTree = "<group>";
+		};
+		BAD0A10914504A5D00DAB291 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BAE9306C14573FCC00752767 /* PRESTADOR.txt */,
+				BAE9306A1457371700752767 /* ESPECIALIDADE.txt */,
+				BAE9306514572AB900752767 /* BAIRRO.txt */,
+				BAE93063145719AE00752767 /* CIDADE.txt */,
+				BAD0A1701450713500DAB291 /* Images */,
+				BAD0A10A14504A5D00DAB291 /* GuiaMedico-Info.plist */,
+				BAD0A10B14504A5D00DAB291 /* InfoPlist.strings */,
+				BAD0A10E14504A5D00DAB291 /* GuiaMedico-Prefix.pch */,
+				BAD0A10F14504A5D00DAB291 /* main.m */,
+				BAD0A188145099BF00DAB291 /* DataBaseModel.xcdatamodeld */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BAD0A15714504FC800DAB291 /* DAL */ = {
+			isa = PBXGroup;
+			children = (
+				BAD0A12614504D5900DAB291 /* DataAccessObject.h */,
+				BAD0A12714504D5900DAB291 /* DataAccessObject.m */,
+			);
+			name = DAL;
+			sourceTree = "<group>";
+		};
+		BAD0A16214506A6400DAB291 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BAE930671457353200752767 /* Especialidade.h */,
+				BAE930681457353200752767 /* Especialidade.m */,
+				BAD0A1A01450A66900DAB291 /* Endereco.h */,
+				BAD0A1A11450A66A00DAB291 /* Endereco.m */,
+				BAD0A19D1450A66900DAB291 /* Cidade.h */,
+				BAD0A19E1450A66900DAB291 /* Cidade.m */,
+				BAD0A19A1450A66800DAB291 /* Bairro.h */,
+				BAD0A19B1450A66800DAB291 /* Bairro.m */,
+				BACF7A0E1468589C00046075 /* Prestador.h */,
+				BACF7A0F1468589C00046075 /* Prestador.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		BAD0A16314506A9200DAB291 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BAD0A16414506AF100DAB291 /* MainViewController.h */,
+				BAD0A16514506AF100DAB291 /* MainViewController.m */,
+				BAD0A16614506AF100DAB291 /* MainViewController.xib */,
+				BAD0A16914506C8200DAB291 /* MapViewController.h */,
+				BAD0A16A14506C8200DAB291 /* MapViewController.m */,
+				BAD0A16B14506C8200DAB291 /* MapViewController.xib */,
+				BAD0A1B11450AA6300DAB291 /* EspecialidadeViewController.h */,
+				BAD0A1B21450AA6300DAB291 /* EspecialidadeViewController.m */,
+				BAD0A1B31450AA6300DAB291 /* EspecialidadeViewController.xib */,
+				BAD0A1B61450B17100DAB291 /* PrestadorViewController.h */,
+				BAD0A1B71450B17100DAB291 /* PrestadorViewController.m */,
+				BAD0A1B81450B17100DAB291 /* PrestadorViewController.xib */,
+				BAC9F2851451B8B100012336 /* PrestadorDetailViewController.h */,
+				BAC9F2861451B8B100012336 /* PrestadorDetailViewController.m */,
+				BAC9F2871451B8B100012336 /* PrestadorDetailViewController.xib */,
+				BAC9F2B11452196100012336 /* CidadeViewController.h */,
+				BAC9F2B21452196200012336 /* CidadeViewController.m */,
+				BAC9F2B31452196200012336 /* CidadeViewController.xib */,
+				BAC9F2B614521C9A00012336 /* BairroViewController.h */,
+				BAC9F2B714521C9A00012336 /* BairroViewController.m */,
+				BAC9F2B814521C9B00012336 /* BairroViewController.xib */,
+				BAE473751458CEBD00D58652 /* ImageViewController.h */,
+				BAE473761458CEBD00D58652 /* ImageViewController.m */,
+				BAE473771458CEBD00D58652 /* ImageViewController.xib */,
+				BAF073F2145AFDD20043605E /* LocationImageView.h */,
+				BAF073F3145AFDD20043605E /* LocationImageView.m */,
+				BAF073F4145AFDD20043605E /* LocationImageView.xib */,
+				BACF79FC146834D500046075 /* BookmarksViewController.h */,
+				BACF79FD146834D500046075 /* BookmarksViewController.m */,
+				BACF79FE146834D500046075 /* BookmarksViewController.xib */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		BAD0A1701450713500DAB291 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				BA8E29FE1474438A0011E7EA /* plano_saude.jpg */,
+				BACF7A01146836E400046075 /* 96-book.png */,
+				BAD18EA7146725A00014E3F2 /* fundo.jpg */,
+				BA3867FD1462E2C2006DE289 /* Google-Notebook-256.png */,
+				BAE4737F1458DE4800D58652 /* predioEinstein.jpg */,
+				BA144CDA145B27170090114F /* 33-cabinet.png */,
+				BAF07407145B19880043605E /* cidade2.jpg */,
+				BAF07405145B19070043605E /* cidade.jpg */,
+				BAF07403145B18160043605E /* cardiologia2.jpg */,
+				BAF07401145B17070043605E /* cardiologia.jpg */,
+				BAF073FF145B11870043605E /* tela-clinic-medico-02.jpg */,
+				BAF073F0145AFBD70043605E /* carteira_access.jpg */,
+				BAF073E6145AF8370043605E /* carteira_omint_estilo.jpg */,
+				BAF073D6145999790043605E /* omintmedico.jpg */,
+				BAF073D4145998D30043605E /* omint5.jpg */,
+				BAF073D0145997450043605E /* omint3.jpg */,
+				BAF073CC145994740043605E /* predioOmint.jpg */,
+				BAF073C7145992AD0043605E /* omintlogo.gif */,
+				BAE473851458E43C00D58652 /* logoUnimed.jpg */,
+				BAE473831458DFE400D58652 /* predioEinstein2.jpg */,
+				BAE473811458DE8B00D58652 /* logoEinstein.jpg */,
+				BAE4737D1458DCB800D58652 /* predio.jpg */,
+				BAE4737B1458DB4B00D58652 /* unimed.jpg */,
+				BAD0A1711450716200DAB291 /* globe.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		BADFC1EF145DC8D300452E84 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				BADFC1F6145DC96900452E84 /* JSON.h */,
+				BADFC1F7145DC96900452E84 /* NSObject+SBJSON.h */,
+				BADFC1F8145DC96900452E84 /* NSObject+SBJSON.m */,
+				BADFC1F9145DC96900452E84 /* NSString+SBJSON.h */,
+				BADFC1FA145DC96900452E84 /* NSString+SBJSON.m */,
+				BADFC1FB145DC96900452E84 /* SBJSON.h */,
+				BADFC1FC145DC96900452E84 /* SBJSON.m */,
+				BADFC1FD145DC96900452E84 /* SBJsonBase.h */,
+				BADFC1FE145DC96900452E84 /* SBJsonBase.m */,
+				BADFC1FF145DC96900452E84 /* SBJsonParser.h */,
+				BADFC200145DC96900452E84 /* SBJsonParser.m */,
+				BADFC201145DC96900452E84 /* SBJsonWriter.h */,
+				BADFC202145DC96900452E84 /* SBJsonWriter.m */,
+			);
+			name = JSON;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BAD0A0FD14504A5D00DAB291 /* GuiaMedico */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAD0A11914504A5D00DAB291 /* Build configuration list for PBXNativeTarget "GuiaMedico" */;
+			buildPhases = (
+				BAD0A0FA14504A5D00DAB291 /* Sources */,
+				BAD0A0FB14504A5D00DAB291 /* Frameworks */,
+				BAD0A0FC14504A5D00DAB291 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GuiaMedico;
+			productName = GuiaMedico;
+			productReference = BAD0A0FE14504A5D00DAB291 /* GuiaMedico.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BAD0A0F514504A5D00DAB291 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = InHouse;
+			};
+			buildConfigurationList = BAD0A0F814504A5D00DAB291 /* Build configuration list for PBXProject "GuiaMedico" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BAD0A0F314504A5D00DAB291;
+			productRefGroup = BAD0A0FF14504A5D00DAB291 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BAD0A0FD14504A5D00DAB291 /* GuiaMedico */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BAD0A0FC14504A5D00DAB291 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAD0A10D14504A5D00DAB291 /* InfoPlist.strings in Resources */,
+				BAD0A11614504A5D00DAB291 /* MainWindow.xib in Resources */,
+				BAD0A16814506AF100DAB291 /* MainViewController.xib in Resources */,
+				BAD0A16D14506C8200DAB291 /* MapViewController.xib in Resources */,
+				BAD0A1721450716200DAB291 /* globe.png in Resources */,
+				BAD0A1B51450AA6300DAB291 /* EspecialidadeViewController.xib in Resources */,
+				BAD0A1BA1450B17200DAB291 /* PrestadorViewController.xib in Resources */,
+				BAC9F2891451B8B100012336 /* PrestadorDetailViewController.xib in Resources */,
+				BAC9F2B51452196200012336 /* CidadeViewController.xib in Resources */,
+				BAC9F2BA14521C9B00012336 /* BairroViewController.xib in Resources */,
+				BAE93064145719AE00752767 /* CIDADE.txt in Resources */,
+				BAE9306614572AB900752767 /* BAIRRO.txt in Resources */,
+				BAE9306B1457371700752767 /* ESPECIALIDADE.txt in Resources */,
+				BAE9306D14573FCC00752767 /* PRESTADOR.txt in Resources */,
+				BAE473791458CEBD00D58652 /* ImageViewController.xib in Resources */,
+				BAE4737C1458DB4B00D58652 /* unimed.jpg in Resources */,
+				BAE4737E1458DCB800D58652 /* predio.jpg in Resources */,
+				BAE473801458DE4800D58652 /* predioEinstein.jpg in Resources */,
+				BAE473821458DE8B00D58652 /* logoEinstein.jpg in Resources */,
+				BAE473841458DFE400D58652 /* predioEinstein2.jpg in Resources */,
+				BAE473861458E43C00D58652 /* logoUnimed.jpg in Resources */,
+				BAF073C8145992AD0043605E /* omintlogo.gif in Resources */,
+				BAF073CD145994740043605E /* predioOmint.jpg in Resources */,
+				BAF073D1145997450043605E /* omint3.jpg in Resources */,
+				BAF073D5145998D30043605E /* omint5.jpg in Resources */,
+				BAF073D7145999790043605E /* omintmedico.jpg in Resources */,
+				BAF073E7145AF8370043605E /* carteira_omint_estilo.jpg in Resources */,
+				BAF073F1145AFBD70043605E /* carteira_access.jpg in Resources */,
+				BAF073F6145AFDD20043605E /* LocationImageView.xib in Resources */,
+				BAF07400145B11880043605E /* tela-clinic-medico-02.jpg in Resources */,
+				BAF07402145B17070043605E /* cardiologia.jpg in Resources */,
+				BAF07404145B18170043605E /* cardiologia2.jpg in Resources */,
+				BAF07406145B19070043605E /* cidade.jpg in Resources */,
+				BAF07408145B19890043605E /* cidade2.jpg in Resources */,
+				BA144CDB145B27170090114F /* 33-cabinet.png in Resources */,
+				BA3867FE1462E2C2006DE289 /* Google-Notebook-256.png in Resources */,
+				BAD18EA8146725A00014E3F2 /* fundo.jpg in Resources */,
+				BACF7A00146834D500046075 /* BookmarksViewController.xib in Resources */,
+				BACF7A02146836E400046075 /* 96-book.png in Resources */,
+				BAB99A90146B2EB6002A1804 /* MainWindow-iPad.xib in Resources */,
+				BA8E29FF1474438A0011E7EA /* plano_saude.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BAD0A0FA14504A5D00DAB291 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAD0A11014504A5D00DAB291 /* main.m in Sources */,
+				BAD0A11314504A5D00DAB291 /* GuiaMedicoAppDelegate.m in Sources */,
+				BAD0A12814504D5900DAB291 /* DataAccessObject.m in Sources */,
+				BAD0A16714506AF100DAB291 /* MainViewController.m in Sources */,
+				BAD0A16C14506C8200DAB291 /* MapViewController.m in Sources */,
+				BAD0A18A145099BF00DAB291 /* DataBaseModel.xcdatamodeld in Sources */,
+				BAD0A19C1450A66900DAB291 /* Bairro.m in Sources */,
+				BAD0A19F1450A66900DAB291 /* Cidade.m in Sources */,
+				BAD0A1A21450A66A00DAB291 /* Endereco.m in Sources */,
+				BAD0A1B41450AA6300DAB291 /* EspecialidadeViewController.m in Sources */,
+				BAD0A1B91450B17200DAB291 /* PrestadorViewController.m in Sources */,
+				BAC9F2881451B8B100012336 /* PrestadorDetailViewController.m in Sources */,
+				BAC9F2B41452196200012336 /* CidadeViewController.m in Sources */,
+				BAC9F2B914521C9B00012336 /* BairroViewController.m in Sources */,
+				BAE930691457353200752767 /* Especialidade.m in Sources */,
+				BAE473781458CEBD00D58652 /* ImageViewController.m in Sources */,
+				BAF073F5145AFDD20043605E /* LocationImageView.m in Sources */,
+				BADFC203145DC96900452E84 /* NSObject+SBJSON.m in Sources */,
+				BADFC204145DC96900452E84 /* NSString+SBJSON.m in Sources */,
+				BADFC205145DC96900452E84 /* SBJSON.m in Sources */,
+				BADFC206145DC96900452E84 /* SBJsonBase.m in Sources */,
+				BADFC207145DC96900452E84 /* SBJsonParser.m in Sources */,
+				BADFC208145DC96900452E84 /* SBJsonWriter.m in Sources */,
+				BACF79FF146834D500046075 /* BookmarksViewController.m in Sources */,
+				BACF7A101468589C00046075 /* Prestador.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BAB99A8E146B2EB6002A1804 /* MainWindow-iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAB99A8F146B2EB6002A1804 /* en */,
+			);
+			name = "MainWindow-iPad.xib";
+			sourceTree = "<group>";
+		};
+		BAD0A10B14504A5D00DAB291 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAD0A10C14504A5D00DAB291 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BAD0A11414504A5D00DAB291 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAD0A11514504A5D00DAB291 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BAD0A11714504A5D00DAB291 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BAD0A11814504A5D00DAB291 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		BAD0A11A14504A5D00DAB291 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GuiaMedico/GuiaMedico-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "GuiaMedico/GuiaMedico-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BAD0A11B14504A5D00DAB291 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GuiaMedico/GuiaMedico-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "GuiaMedico/GuiaMedico-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BAD0A0F814504A5D00DAB291 /* Build configuration list for PBXProject "GuiaMedico" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAD0A11714504A5D00DAB291 /* Debug */,
+				BAD0A11814504A5D00DAB291 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAD0A11914504A5D00DAB291 /* Build configuration list for PBXNativeTarget "GuiaMedico" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAD0A11A14504A5D00DAB291 /* Debug */,
+				BAD0A11B14504A5D00DAB291 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BAD0A188145099BF00DAB291 /* DataBaseModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BAD0A189145099BF00DAB291 /* DataBaseModel.xcdatamodel */,
+			);
+			currentVersion = BAD0A189145099BF00DAB291 /* DataBaseModel.xcdatamodel */;
+			path = DataBaseModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BAD0A0F514504A5D00DAB291 /* Project object */;
+}

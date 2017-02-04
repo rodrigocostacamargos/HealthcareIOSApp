@@ -1,0 +1,5 @@
+1;Cardiologia
+2;Neurologia
+3;Clinico Geral
+4;Ortopedia
+5;Pediatria

@@ -1,0 +1,4 @@
+1;Sao Paulo;SP
+2;Sao Jose do Rio Preto;SP
+3;Florianopolis;SC
+4;Rio de Janeiro;RJ
